@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "ziti";
+  src: url("./PingFangYingFengTi-2.ttf");
+}
+.ruchangbody {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vw;
+  font-family: ziti;
+  animation: ruchangbody 0.8s ease-in forwards;
+  animation-delay: 4s;
+  opacity: 1;
+}
+.wenzi {
+  padding: 5vw;
+  opacity: 0;
+}
+.jieshao {
+  color: white;
+  top: 43vw;
+  position: absolute;
+  right: 4vw;
+  font-size: 2vw;
+  font-family: ziti;
+  opacity: 0;
+  animation: q 0.2 ease forwards;
+  animation-delay: 3s;
+}
+.q {
+  animation: q 0.5s ease-in forwards;
+}
+.r {
+  animation: q 0.5s ease-in forwards;
+  animation-delay: 0.5s;
+}
+.j {
+  animation: q 0.5s ease-in forwards;
+  animation-delay: 1s;
+}
+.k {
+  animation: q 0.5s ease-in forwards;
+  animation-delay: 1.5s;
+}
+.l {
+  animation: q 0.5s ease-in forwards;
+  animation-delay: 2s;
+}
+.gantan {
+  animation: q 0.5s ease-in forwards;
+  animation-delay: 2.5s;
+}
+.zuihou {
+  z-index: 100;
+  animation: zuihou 1s ease-in-out forwards;
+  animation-delay: 3.2s;
+}
+@keyframes q {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes ruchangbody {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes zuihou {
+  to {
+    opacity: 0;
+  }
+}

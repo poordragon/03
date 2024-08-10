@@ -1,0 +1,32 @@
+.shiju{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    color: rgb(224, 230, 236);
+    background-color: black;
+    opacity: 0;
+    animation:  xxx 1.5s ease-in-out forwards;animation-delay: 3.8s;
+    z-index: -100000;
+    
+}
+.shiju1{
+    font-size: 60px;
+    text-align: center;
+    top: 1vw;
+    left: 25vw;
+    font-family: zhengkai;
+}
+.shiju2{
+    
+top: 15vw;
+left: 20vw;
+line-height: 20px;
+font-size: 40px;
+font-family: ziti;
+}
+
